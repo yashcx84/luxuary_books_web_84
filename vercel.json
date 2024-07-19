@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/fonts/:match*",
-        "destination": "/fonts/:match*"
+        "source": "/*",
+        "destination": "/page.tsx*"
       }
     ]
   }
