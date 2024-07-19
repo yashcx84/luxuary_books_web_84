@@ -2,7 +2,7 @@
 import React, { useCallback, useMemo } from "react";
 import HomeLandingPage from './components/home/index'
 import { HomePageContainer } from './home.page'
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import Footer from './components/footer/Footer';
 
 export default function Home() {
