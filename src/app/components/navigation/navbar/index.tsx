@@ -62,7 +62,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
 function NavItem({ href, isactive, children }: NavItemProps) {
   return (
     <li>
-      <Link href={href}>
+      <Link href={href} prefetch={false}>
         <p style={{ fontFamily: isactive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
       </Link>
     </li>
