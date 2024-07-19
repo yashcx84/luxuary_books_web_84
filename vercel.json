@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/fonts/:match*",
+        "destination": "/fonts/:match*"
+      }
+    ]
+  }
+  
