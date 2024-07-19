@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'primary font';
+    src: url('/fonts/pertili.woff') format('woff');
+}
+@font-face {
+    font-family: 'primary font light2';
+    src: url('/fonts/perpetuatitlingmt-light2.woff') format('woff');
+}
+@font-face {
+    font-family: 'primary font bold';
+    src: url('/fonts/perti-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gayathri font';
+    src: url('/fonts/Gayathri-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gayathri font bold';
+    src: url('/fonts/Gayathri-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gayathri font thin';
+    src: url('/fonts/Gayathri-Thin.woff') format('woff');
+}
+
+:root {
+    --brand-font-family: 'Perpetua Titling MT';
+
+    --brand-font-weight-light: 300;
+    --brand-font-weight-roman: 400;
+    --brand-font-weight-medium: 500;
+    --brand-font-weight-dark: 600;
+    --brand-font-weight-medium-dark: 700;
+    --brand-font-weight-heavy: 800;
+    --brand-font-weight-black: 900;
+
+    --brand-button-small-height: 30px;
+    --brand-button-small-size: 12px;
+    --brand-button-medium-height: 40px;
+    --brand-button-medium-size: 14px;
+    --brand-button-large-height: 50px;
+    --brand-button-large-size: 16px;
+    --brand-button-extra-large-height: 60px;
+    --brand-button-extra-large-size: 20px;
+
+    --brand-mobile-max-width: 767px;
+
+    --brand-primary-white-color: rgba(255, 255, 255, 1);
+    --brand-navbar-background-color: rgba(34, 33, 36, 1);
+    --book-title-color: rgba(34, 33, 36, 1);
+    --book-subtitle-color: rgba(45, 45, 45, 1);
+    --book-subtitle-color-60: rgba(45, 45, 45, 0.6);
+    --brand-yellow-color: rgba(251, 234, 85, 1);
+    --brand-contactus-bg-color: rgba(255, 251, 251, 1);
+    --black-color: rgba(0, 0, 0, 1);
+
+
+    
+}

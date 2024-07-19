@@ -1,0 +1,37 @@
+.navbar {
+    background-color: var(--brand-navbar-background-color);
+    color: #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.paragraph {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.paragraph:active {
+    font-weight: bold;
+}
+
+.logoimageclass {
+    height: 51px;
+    width: 351px;
+}
